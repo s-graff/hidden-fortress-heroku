@@ -23,7 +23,7 @@ public class EcommerceDemoApplication {
             productService.save(new Product(4L, "Ice Cream", 5.00, "http://placehold.it/200x100"));
             productService.save(new Product(5L, "Root Beer", 3.00, "http://placehold.it/200x100"));
             productService.save(new Product(6L, "Phone", 500.00, "http://placehold.it/200x100"));
-            productService.save(new Product(7L, "Watch", 30.00, "http://placehold.it/200x100"));
+            productService.save(new Product(7L, "Tants", 30.00, "http://placehold.it/200x100"));
         };
     }
 }
