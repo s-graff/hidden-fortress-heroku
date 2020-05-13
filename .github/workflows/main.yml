@@ -1,5 +1,8 @@
 on: pull_request
 
+# Checkstyle uses google_checks.xml by default.
+# google_checks.xml is defined in https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml
+# checkstyle documentation is at https://checkstyle.org/checks.html
 jobs:
   checkstyle_job:
     runs-on: ubuntu-latest
